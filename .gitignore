@@ -1,0 +1,11 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+.vscode/
+
+._*
+Thumbs.db
+
+node_modules/
+dist/
+.cache/
