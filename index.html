@@ -5,20 +5,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>OpenCV 101</title>
-	<link rel="stylesheet" href="css/main.scss">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<h1>OpenCV 101</h1>
+	<p>
+		Processing video input with OpenCV. Use <code>video</code> element as an input and stream the output to <code>canvas</code> element.
+	</p>
 
-	<div class="inputoutput">
-		<img id="imgSrc" alt="no image">
-	</div>
-	<canvas id="outputCanvas"></canvas>
 	<div>
-		<label for="fileInput">imageSrc:</label>
-		<input type="file" name="file" id="fileInput">
+		<h4>Input</h4>
+		<video id="input" width="500" height="375"></video>
 	</div>
-	<!-- <script src="js/lib/opencv.js"></script> -->
-	<script src="js/index.ts"></script>
+	<div>
+		<h4>Output</h4>
+		<canvas id="output"></canvas>
+	</div>
+	<script src="js/lib/opencv.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
