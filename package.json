@@ -1,7 +1,7 @@
 {
 	"scripts": {
-		"start": "parcel index.html",
-		"dev": "lite-server"
+		"dev": "parcel index.html",
+		"start": "lite-server"
 	},
 	"devDependencies": {
 		"eslint": "^6.0.1",
