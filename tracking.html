@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Object Tracking with OpenCV.js</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="loading-overlay" id="loading-overlay">Loading ...</div>
+	<h1>Object Tracking with OpenCV.js</h1>
+
+	<div class="grid">
+		<video src="videos/car.mp4" id="input" muted loop width="360" height="202"></video>
+		<canvas id="output" width="360" height="202"></canvas>
+	</div>
+
+	<script src="/js/lib/opencv.js"></script>
+	<script src="/js/object-tracking.js"></script>
+</body>
+</html>

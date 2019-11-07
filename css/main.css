@@ -3,7 +3,35 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #141414;
-	max-width: 35em;
+	max-width: 720px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+video {
+	max-width: 100%;
+}
+
+.loading-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	opacity: 1;
+	transition: opacity 0.4s ease;
+}
+
+.loading-overlay.hidden {
+	opacity: 0;
 }
